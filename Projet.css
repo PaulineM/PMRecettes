@@ -1,0 +1,132 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+
+.navbar ul li {
+	display: inline-block;
+	height: 75px;
+	padding-top: 25px;
+	font-size: 150%;
+	font-weight: 300;
+}
+
+.navbar ul li a {
+	color: #d35400;
+}
+
+.navbar {
+	background-color: #fff;	
+}
+
+body, html, main {
+	height: 100%
+}
+
+.fixe {
+	/*min-height: 100%;*/
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100px;
+	
+}
+
+.fixe.le1 {
+	background-image: url("http://myfrenchcookingtour.com/wp-content/uploads/2014/05/cooking-time.jpg");
+	/*("http://myfrenchcookingtour.com/wp-content/uploads/2014/05/cooking-time.jpg");*/
+	color: #fff;
+	font-size: 500%;
+	font-weight: 300;
+	padding-top: 18%;
+	box-shadow: inset 0 0 0 1000px rgba(211, 84, 0,.2);
+	min-height: 100%
+
+}
+
+.fixe.le2 {
+	background-color: #FF9F80;
+	height: 200px;
+	padding: 30px;
+	font-size: 150%;
+	color: #fff;
+	font-weight: 200;
+}
+
+
+/*.scroll {
+	padding: 120px;
+	font-size: 150%;
+	font-weight: 300;
+	text-align: justify;
+	min-height: 100%;
+}
+
+/*.scroll.color1 {
+	background-color: #fff;
+	color: #696969;
+}*/
+
+.container {
+	font-size: 140%;
+	font-weight: 300;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	text-align: justify;
+}
+
+
+#image {
+	transition:all 0.4s;
+}
+
+#image2 {
+	transition:all 0.4s;
+}
+
+#image3 {
+	transition:all 3s;
+}
+
+#image4 {
+	transition:all 0.4s;
+}
+
+.idee {
+	transform-style: preserve-3d;
+	transform: perspective(800px);
+}
+
+.idee {
+	opacity: 0
+}
+
+.fixe.le2 a:hover {
+	text-decoration: none;
+}
+
+.fa-stack.fa-lg.le2:hover {
+	color: #00aced;
+}
+
+.fa-stack.fa-lg.le3:hover {
+	color: #bb0000;
+}
+
+.fa-stack.fa-lg.le1:hover {
+	color: #3b5998;
+}
+
+.fa-stack.fa-lg.le4:hover {
+	color: #00bf8f;
+}
+
+.lecontainer1 a {
+	color: #607890;
+}
+
+p {
+	color: #696969;
+	font-weight: 200;
+}
