@@ -1,0 +1,126 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.navbar ul li {
+	display: inline-block;
+	height: 75px;
+	padding-top: 25px;
+	font-size: 150%;
+	font-weight: 300;
+}
+
+.navbar ul li a {
+	color: #d35400;
+}
+
+body, html, main {
+	height: 100%;
+}
+
+
+.navbar {
+	background-color: #fff;	
+}
+
+.scroll {
+	padding: 120px;
+	font-size: 150%;
+	font-weight: 300;
+	text-align: justify;
+	min-height: 100%;
+}
+
+.fixe {
+	/*min-height: 100%;*/
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100px;
+	
+}
+
+.fixe.le1 {
+	color: #fff;
+	font-size: 300%;
+	font-weight: 300;
+	/*box-shadow: inset 0 0 0 1000px rgba(211, 84, 0,.2);*/
+	/*min-height: 100%;*/
+	height: 80%;
+	padding: 7%;
+	text-align: center;
+	background-image: url("http://7-themes.com/data_images/out/71/7013424-cookies-sweets-dessert.jpg");
+	/*("https://i.ytimg.com/vi/sz_7mG_kqHo/maxresdefault.jpg");*/
+
+}
+
+.fixe.le1 li {
+	list-style: none;
+	text-align: justify;
+}
+
+.fixe.le1 li:hover {
+	text-decoration: none;
+}
+
+
+h1 {
+	color: #696969;
+}
+
+.lecontainer a:hover {
+	text-decoration: none;
+}
+
+.fa-stack.fa-lg.le1:hover {
+	color: #3b5998;
+	font-size: 200%;
+	transition: font-size 0.2s;
+}
+
+
+.fa-stack.fa-lg.le2:hover {
+	color: #00aced;
+	font-size: 200%;
+	transition: font-size 0.2s;
+}
+
+.fa-stack.fa-lg.le3:hover {
+	color: #bb0000;
+	font-size: 200%;
+	transition: font-size 0.2s;
+}
+.lecontainer a {
+	color: #696969;
+}
+
+.lecontainer {
+	margin-top: 20px;
+}
+
+.scroll a {
+	text-decoration: none;
+}
+
+.recette a {
+	color: black;
+}
+
+.scroll span {
+	margin-top: -300px;
+ 	padding-bottom: 300px; 
+ 	display: block; 
+}
+
+.recette {
+	height: 130px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding-top: 10px;
+}
+
+.recette:hover {
+	background-color: rgba(191,191,191,.2);
+}
