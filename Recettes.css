@@ -47,21 +47,17 @@ body, html, main {
 	font-weight: 300;
 	/*box-shadow: inset 0 0 0 1000px rgba(211, 84, 0,.2);*/
 	/*min-height: 100%;*/
-	height: 80%;
-	padding: 7%;
+	height: 500px;
 	text-align: center;
 	background-image: url("http://7-themes.com/data_images/out/71/7013424-cookies-sweets-dessert.jpg");
 	/*("https://i.ytimg.com/vi/sz_7mG_kqHo/maxresdefault.jpg");*/
-
 }
 
-.fixe.le1 li {
-	list-style: none;
-	text-align: justify;
-}
-
-.fixe.le1 li:hover {
-	text-decoration: none;
+.r {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
 }
 
 
@@ -118,9 +114,24 @@ h1 {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	padding-top: 10px;
+	margin: 10px;
 }
 
 .recette:hover {
 	background-color: rgba(191,191,191,.2);
+}
+
+@media screen and (max-width: 1200px) {
+	.recette{
+		height: 250px;
+	}
+
+	.recette img {
+		height: 120px;
+		width: 120px;
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;	
+    	margin-bottom: 40px;
+	}
 }
