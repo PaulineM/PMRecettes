@@ -60,3 +60,12 @@ main {
 	line-height: 100px;
 	vertical-align: middle;
 }
+
+
+.ingredient img {
+	margin: 10px;
+}
+
+.etapes span {
+	color: #fff;
+}
