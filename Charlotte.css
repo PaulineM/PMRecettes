@@ -67,3 +67,12 @@ main {
 .etapes.pate.le5 {
 	padding-bottom: 120px;
 }
+
+
+.ingredient img {
+	margin: 10px;
+}
+
+.etapes span {
+	color: #fff;
+}
