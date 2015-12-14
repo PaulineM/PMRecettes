@@ -53,19 +53,17 @@ main {
 	color: #FF9F80;
 }
 
-.etapes {
+.etapes.pate {
 	font-size: 150%;
 	font-weight: 300;
-	height: 100px;
-	line-height: 100px;
-	vertical-align: middle;
+	/*line-height: 100px;
+	vertical-align: middle;*/
+	padding-top: 80px;
 }
 
-
-.ingredient img {
-	margin: 10px;
+.etapes.pate.le1 {
+	padding-top: 10px;
 }
-
-.etapes span {
-	color: #fff;
+.etapes.pate.le5 {
+	padding-bottom: 120px;
 }
