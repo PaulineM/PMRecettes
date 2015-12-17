@@ -7,12 +7,12 @@ body {
 .menu {
     left: -285px;
     position: fixed;
-    font-size: 370%
+    font-size: 580%
 }
 
 .bouton {
     position: fixed;
-    font-size: 400%
+    font-size: 600%
 }
 
 a {
