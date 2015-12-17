@@ -7,14 +7,15 @@ body {
 .menu {
     left: -285px;
     position: fixed;
-    font-size: 150%
+    font-size: 370%
 }
 
 .bouton {
     position: fixed;
-    font-size: 240%
+    font-size: 400%
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
+	color: #696969
 }
