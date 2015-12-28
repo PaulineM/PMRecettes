@@ -1,0 +1,53 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.navbar ul li {
+	display: inline-block;
+	height: 75px;
+	padding-top: 25px;
+	font-size: 150%;
+	font-weight: 300;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: background-color 0.3s ease;
+}
+
+.navbar ul li:hover {
+	background-color: #EEEEEE;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.navbar ul li a {
+	color: #d35400;
+}
+
+body, html, main {
+	height: 100%;
+}
+
+
+.navbar {
+	background-color: #fff;	
+}
+
+.scroll {
+	padding: 120px;
+	font-size: 150%;
+	font-weight: 300;
+	text-align: justify;
+	min-height: 100%;
+}
+
+.fixe {
+	/*min-height: 100%;*/
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100px;
+	
+}
