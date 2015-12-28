@@ -9,6 +9,13 @@ body {
 	padding-top: 25px;
 	font-size: 150%;
 	font-weight: 300;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: background-color 0.3s ease;
+}
+
+.navbar ul li:hover {
+	background-color: #EEEEEE;
 }
 
 .navbar ul li a {
@@ -22,7 +29,6 @@ body {
 body, html, main {
 	height: 100%
 }
-
 
 /* Fond d'écran fixe */
 
@@ -148,16 +154,18 @@ a:hover {
 	color: #FF9F80;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1200px) {
 	.container img {
-		height: 160px;
-		width: 160px;
+		height: 250px;
+		width: 250px;
 		display: block;
     	margin-left: auto;
-    	margin-right: auto
+    	margin-right: auto;
+    	padding: 30px;
 	}
 
 	.container {
 		margin-top: 40px;
 	}
 }
+
