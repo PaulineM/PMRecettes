@@ -8,6 +8,17 @@ body {
 	padding-top: 25px;
 	font-size: 150%;
 	font-weight: 300;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: background-color 0.3s ease;
+}
+
+.navbar ul li:hover {
+	background-color: #EEEEEE;
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 .navbar ul li a {
