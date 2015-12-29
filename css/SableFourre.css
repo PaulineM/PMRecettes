@@ -15,45 +15,7 @@ main {
 
 }
 
-.ingredient {
-	font-size: 150%;
-	font-weight: 300
-}
-
 .fa.fa-circle.fa-stack-2x {
 	color: #FF9F80;
 }
 
-.etapes {
-	font-size: 150%;
-	font-weight: 300;
-	/*line-height: 100px;
-	vertical-align: middle;*/
-}
-
-
-.etapes.pate {
-	padding-top: 80px;
-}
-
-.etapes.pate.le4 {
-	padding-bottom: 100px;
-}
-
-.ingredient img {
-	margin: 10px;
-}
-
-.etapes span {
-	color: #fff;
-}
-
-.fa.fa-angle-left {
-	top:10%;
-	position:fixed;
-	margin-left: 10px;
-}
-
-/*@media only screen and (max-device-width: 480px) {
-	font-size: 200%;
-}*/
