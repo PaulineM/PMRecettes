@@ -67,3 +67,38 @@ body, html, main {
 	}
 
 }
+
+.ingredient {
+	font-size: 150%;
+	font-weight: 300
+}
+
+.etapes {
+	font-size: 150%;
+	font-weight: 300;
+	/*line-height: 100px;
+	vertical-align: middle;*/
+}
+
+
+.etapes.pate {
+	padding-top: 80px;
+}
+
+.container.le2 {
+	margin-bottom:80px;
+}
+
+.ingredient img {
+	margin: 10px;
+}
+
+.etapes span {
+	color: #fff;
+}
+
+.fa.fa-circle.fa-stack-2x.le5 {
+	color: #3498db;
+}
+
+
