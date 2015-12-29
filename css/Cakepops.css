@@ -14,48 +14,7 @@ main {
 
 }
 
-.ingredient {
-	font-size: 150%;
-	font-weight: 300
-}
-
 .fa.fa-circle.fa-stack-2x {
 	color: #FF9F80;
 }
 
-.container.le2 {
-	font-size: 150%;
-	font-weight: 300;
-	/*line-height: 100px;
-	vertical-align: middle;*/
-}
-
-/*.etapes.pate.le2 {
-	padding-top: 80px;
-}
-.etapes.pate.le3 {
-	padding-top: 80px;
-}
-.etapes.pate.le4 {
-	padding-top: 80px;
-	margin-bottom: 120px;
-}*/
-.etapes.pate {
-	padding-top: 80px;
-}
-
-.etapes.pate.le4 {
-	padding-bottom: 120px;
-}
-
-.etapes.pate.le1 {
-	padding-top: 0px;
-}
-
-.ingredient img {
-	padding-top: 10px;
-}
-
-.etapes span {
-	color: #fff;
-}
