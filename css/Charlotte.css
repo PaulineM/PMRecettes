@@ -14,35 +14,8 @@ main {
 
 }
 
-.ingredient {
-	font-size: 150%;
-	font-weight: 300
-}
-
 .fa.fa-circle.fa-stack-2x {
 	color: #FF9F80;
 }
 
-.etapes.pate {
-	font-size: 150%;
-	font-weight: 300;
-	/*line-height: 100px;
-	vertical-align: middle;*/
-	padding-top: 80px;
-}
 
-.etapes.pate.le1 {
-	padding-top: 10px;
-}
-.etapes.pate.le5 {
-	padding-bottom: 120px;
-}
-
-
-.ingredient img {
-	margin: 10px;
-}
-
-.etapes span {
-	color: #fff;
-}
