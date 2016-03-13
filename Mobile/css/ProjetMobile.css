@@ -16,7 +16,8 @@ body {
     position: fixed;
     font-size: 300%;
     color: #fff;
-    width: 100%
+    width: 100%;
+    background-color: #E66F8C;
 }
 
 .bouton .col-md-11 {
