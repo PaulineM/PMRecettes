@@ -13,7 +13,11 @@ body {
 
 .bouton {
     position: fixed;
-    font-size: 600%
+    font-size: 300%
+}
+
+.bouton .col-md-11 {
+    text-align: center;
 }
 
 a {
