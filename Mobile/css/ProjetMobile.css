@@ -2,7 +2,9 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     left: 0px;
-    margin: 20px;
+    width: 100%;
+    heigh: 100%;
+    color: #fff;
 }
 
 .menu {
@@ -13,7 +15,9 @@ body {
 
 .bouton {
     position: fixed;
-    font-size: 300%
+    font-size: 300%;
+    color: #fff;
+    width: 100%
 }
 
 .bouton .col-md-11 {
